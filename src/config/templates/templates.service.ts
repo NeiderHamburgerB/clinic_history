@@ -19,12 +19,5 @@ export class TemplatesService {
 
   welcome = (params: any) =>
     this.quotedPrintable(renderFile(join(this.templates, 'welcome.pug'), params))
-
-  passwordRecovery = (params: any) =>
-    this.quotedPrintable(renderFile(join(this.templates, 'requestUpdatePassword.pug'), params))
-
-  updatePassword = (params: any) =>
-    this.quotedPrintable(renderFile(join(this.templates, 'updatePassword.pug'), params))
-
   
 } 
