@@ -1,0 +1,92 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+body .core {
+    box-shadow: 10px 10px 5px 0px rgba(181,181,181,1);
+}
+
+body .core .main {
+    background-color: #a9cbdd;
+    position: relative;
+    padding: 30px 45px;
+    min-height: 400pt;
+    max-width: 500pt;
+}
+
+body .core .main .title {
+    margin-bottom: 15px;
+    color: white;
+}
+
+body .core .main .logotype {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+body .core .main .logotype img {
+    margin-bottom: 30px;
+    width: 200pt;
+    height: 60pt;
+}
+
+body .core .main .content {
+    padding-right: 60pt;
+    font-size: 14pt;
+    color: white;
+    width: 100%;
+}
+
+body .core .main .content span {
+    margin-bottom: 15pt;
+    text-align: justify;
+    display: block;
+}
+
+body .core .main .team-footer {
+    text-align: justify;
+    margin-top: 40pt;
+    font-size: 18pt;
+}
+
+body .core .footer {
+    background-color: white;
+    max-width: 500pt;
+    padding: 15px;
+}
+
+body .core .footer span {
+    color: #a3a3a3;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14pt;
+    display: block;
+}
+
+.white {
+    color: white
+}
+
+.team {
+    margin-right: 10pt;
+}
+
+.bgBlue{
+    background-color: #a9cbdd;
+    height: 100%;
+    width: 100%;
+}
